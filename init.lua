@@ -1,10 +1,10 @@
  -- Load global functions
-require("globals")
+require("project.globals")
 -- Plugin management via Packer
-require("plugins")
+require("project.plugins")
 -- "Global" Keymappings
-require("mappings")
+require("project.mappings")
 -- All non plugin related (nvim) options
-require("options")
+require("project.options")
 -- vim autocommands
-require("autocmd")
+require("project.autocmd")
