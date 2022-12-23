@@ -1,4 +1,4 @@
- -- Load global functions
+-- Load global functions
 require("project.globals")
 -- Plugin management via Packer
 require("project.plugins")
