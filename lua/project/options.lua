@@ -1,5 +1,13 @@
 local settings_status_ok, settings = pcall(require, "settings")
+if not settings_status_ok then
+  return
+end
+
 local utils_status_ok, utils = pcall(require, "utils")
+if not utils_status_ok then
+  return
+end
+
 local o = vim.opt
 local fn = vim.fn
 
